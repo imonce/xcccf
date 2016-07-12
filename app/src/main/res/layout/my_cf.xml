@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cf_type"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="我发起的"
+        android:background="@color/light_grey"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager_mycf"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#ffffff"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/light_grey" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:src="@drawable/start"
+            android:clickable="true"
+            android:onClick="set_start"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:src="@drawable/join"
+            android:clickable="true"
+            android:onClick="set_join"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:src="@drawable/collect"
+            android:clickable="true"
+            android:onClick="set_collect"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

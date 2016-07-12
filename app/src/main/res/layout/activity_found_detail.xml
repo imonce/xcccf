@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:src="@drawable/h2"
+            android:padding="14dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:textSize="14dp"
+            android:text="发起人：\n\n项目名称：\n\n发起时间："
+            android:gravity="center_vertical|right" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:textSize="14dp"
+            android:text="罗小黑\n\n夺取天明珠\n\n2016年7月8日"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="6"
+            android:columnCount="3"
+            android:layout_marginTop="40px">
+
+            <TextView
+                android:layout_columnSpan="3"
+                android:layout_margin="10dp"
+                android:text="项目详情介绍"/>
+            <TextView
+                android:layout_columnSpan="3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="..."
+                />
+            <TextView
+                android:text="众筹持续时间："
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_columnSpan="2"
+                android:text="2016年7月8日 - 2016年7月18日"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:text="众筹金额："
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_columnSpan="2"
+                android:text="10,000,000"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:text="已完成金额："
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_columnSpan="2"
+                android:text="0"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:text="众筹状态："
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_columnSpan="2"
+                android:text="火热进行中"
+                android:layout_margin="10dp"/>
+
+        </GridLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:layout_gravity="bottom">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:layout_weight="3"
+            android:text="参与众筹"
+            android:textSize="34px"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:layout_weight="1"
+            android:text="收藏"
+            android:textSize="34px"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

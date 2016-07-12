@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gobywind.qsbc.login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36dp"
+        android:text="Welcome"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:id="@+id/wel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36dp"
+        android:text="To"
+        android:layout_below="@+id/wel"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:id="@+id/to"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36dp"
+        android:text="QSBC"
+        android:layout_below="@+id/to"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:id="@+id/wtqsbc"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wtqsbc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="   User Name   "
+        android:gravity="center"
+        android:id="@+id/us_name"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/us_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="   Password   "
+        android:gravity="center"
+        android:id="@+id/us_pwd"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_sub"
+        android:layout_below="@+id/us_pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="     Login     "
+        android:onClick="Login_f"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Version 1.0V"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        />
+
+</RelativeLayout>

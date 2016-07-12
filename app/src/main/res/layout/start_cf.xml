@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context="com.example.imonc.learningroom.ComeUpWithAFound">
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:entries="@array/found_type">
+    </Spinner>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:hint="众筹金额"
+        android:inputType="number"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:hint="截止日期"
+        android:inputType="date"/>
+
+    <EditText
+        android:layout_width="400px"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:hint="众筹项目名"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:hint="众筹介绍"
+        android:gravity="top">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="34px"
+        android:text="发布" />
+
+
+</LinearLayout>

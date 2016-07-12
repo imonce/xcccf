@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">寝室菠菜</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_login">login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_found_detail">found_detail</string>
+</resources>

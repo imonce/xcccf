@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="found_type">
+        <item>选择众筹类型</item>
+        <item>康宝蓝</item>
+        <item>拿铁</item>
+        <item>布雷卫</item>
+        <item>焦糖玛奇朵</item>
+    </string-array>
+</resources>
